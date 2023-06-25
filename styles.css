@@ -1,0 +1,97 @@
+body{
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    background-color: #1B1B1B;
+    color: #f5f6f7;
+    font-size: 18px;
+}
+
+h1, p{
+    margin: 10px auto;
+    text-align: center;
+}
+
+h1{
+    padding-top: 30px;
+}
+
+form {
+    width: 60vw;
+    max-width: 500px;
+    min-width: 300px;
+    margin: 20px auto;
+    padding-bottom: 2em;
+    background-color: #22223fd1;
+}
+
+label {
+    display: block;
+    margin: 0.5rem 0;
+    margin-left: 20px;
+}
+
+input,
+textarea {
+  margin: 10px 0 0 0;
+  width: 95%;
+  min-height: 2em;
+  border-radius: 5px;
+}
+
+select{
+  margin: 10px 0 0 0;
+  width: 92%;
+  min-height: 2em;
+  border-radius: 5px;
+}
+
+.select{
+    text-align: left;
+    margin: unset;
+    padding-left: 20px;
+    margin-right: 20px;
+}
+
+input[type="checkbox"]{
+    width: unset;
+    padding-left: 20px;
+}
+
+#name-label{
+    padding-top: 30px;
+}
+
+
+input[type="radio"]{
+    width: unset;
+    padding-left: 20px;
+}
+
+.inline{
+    width: unset;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+}
+
+#dropdown{
+    margin-bottom: 25px;
+    margin-left: 20px;
+}
+
+.comment{
+    border-radius: 0;
+}
+
+input[type="submit"]{
+    background-color: #3aaf3a;
+    color: white;
+    border: none;
+    border-radius: 0;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.bot-spacing{
+    margin-bottom: 25px;
+}

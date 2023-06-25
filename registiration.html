@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=>, initial-scale=1.0">
+    <title>Nizam Corp. Survey Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1 id="title">Nizam Corp. Survey Form</h1>
+    <p id="description"><i>Thank you for taking the time to help us improve the company</i></p>
+    <form id="survey-form">
+        <label id="name-label">Name <input id="name" type="text" required placeholder=" Enter your name"></label>
+        <label id="email-label">Email <input id="email" required type="email" placeholder=" Enter your Email"></label>
+        <label id="number-label">Age (optional) <input id="number" type="number" min="13" max="120" placeholder=" Age"></label>
+        <p class="select">Which option best describes your current role?</p>
+        <select id="dropdown">
+            <option>Select current role</option>
+            <option>Student</option>
+            <option>Full Time Job</option>
+            <option>Unemployed</option>
+            <option>Prefer not to say</option>
+            <option>Other</option>
+        </select>
+        <p class="select">Would you recommend Nizam Corp. products to your friends?</p>
+        <label><input type="radio" name="radio" class="inline" value="a"> Yes</label>
+        <label><input type="radio" name="radio" class="inline" value="b"> Not sure</label>
+        <label class="bot-spacing"><input type="radio" name="radio" class="inline" value="c"> No</label>
+        <p class="select">What would you like to see improved (Check all that apply)</p>
+        <label><input type="checkbox" value="1" class="inline">Social Media Projects</label>
+        <label><input type="checkbox" value="2" class="inline">Cyber Security Products</label>
+        <label><input type="checkbox" value="3" class="inline">Holograms</label>
+        <label><input type="checkbox" value="4" class="inline">AI Projects</label>
+        <label><input type="checkbox" value="5" class="inline">Educational Contents</label>
+        <label><input type="checkbox" value="6" class="inline">Cafes</label>
+        <label><input type="checkbox" value="7" class="inline">Restaurants</label>
+        <label><input type="checkbox" value="8" class="inline">Hotels</label>
+        <label><input type="checkbox" value="9" class="inline">Vehicles</label>
+        <label><input type="checkbox" value="10" class="inline">Weaponary</label>
+        <label class="bot-spacing"><input type="checkbox" value="11" class="inline">Gyms</label>
+        <p class="select">Any comments or suggestions?</p>
+        <label class="bot-spacing"><textarea placeholder="Enter your comment here..." class="comment" rows="8"></textarea></label>
+        <label><input type="submit" id="submit" value="Submit"></label>
+    </form>
+</body>
+</html>
